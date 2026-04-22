@@ -1,6 +1,6 @@
 cask "mcpboltbar" do
-  version "0.1.5"
-  sha256 "7b8f4da77c13752a7e64a08c627253dd9a84a132f5913785b51b4d061283e41c"
+  version "0.2.0"
+  sha256 "6ee141cdce3ff55ee31bdec0639a3cc60f4717fc167fd33ce77a0652434535b2"
 
   url "https://github.com/vishmathpati/mcpbolt/releases/download/mac-v#{version}/MCPBoltBar.zip"
   name "MCPBoltBar"
@@ -14,7 +14,7 @@ cask "mcpboltbar" do
   end
 
   auto_updates false
-  depends_on macos: ">= :monterey"
+  depends_on macos: ">= :sonoma"
 
   app "MCPBoltBar.app"
 
