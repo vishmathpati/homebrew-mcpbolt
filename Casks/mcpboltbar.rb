@@ -1,6 +1,6 @@
 cask "mcpboltbar" do
-  version "0.5.6"
-  sha256 "0818309b7094e8b5bbdceefd18ebc22bf2acb0076cdf905314deada1ae6226eb"
+  version "0.5.7"
+  sha256 "8b7a0d4f465604f87009655a832e251263914c8ad40303c2e0ee524d2cedd6c3"
 
   url "https://github.com/vishmathpati/mcpbolt/releases/download/mac-v#{version}/MCPBoltBar.zip"
   name "MCPBoltBar"
