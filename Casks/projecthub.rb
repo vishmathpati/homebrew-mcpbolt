@@ -1,6 +1,6 @@
 cask "projecthub" do
   version "0.3.0"
-  sha256 "57e0641401556e4927785a027aa0086af53b99c126ae63a4b87cd9edcecf6b1e"
+  sha256 "cde5e084a5921a8a88e626abf607c8a94460a9a22d399c00c42ecc579146ba3a"
 
   url "https://github.com/vishmathpati/project-hub/releases/download/v#{version}/ProjectHub.zip"
   name "Project Hub"
