@@ -1,8 +1,8 @@
 cask "mcpboltbar" do
-  version "0.5.20"
-  sha256 "9f32ebe6e3a6e179ff85d47f9a34751318d3b7596cda88c83b65675b87b1afd0"
+  version "0.5.21"
+  sha256 "df6f7d9e3737e049587bf0c3b3e0237855ead071b4ee8250b063ca185563f8c3"
 
-  url "https://github.com/vishmathpati/mcpbolt/releases/download/mac-v#{version}/MCPBoltBar.zip"
+  url "https://github.com/vishmathpati/mcpbolt/releases/download/mac-v\#{version}/MCPBoltBar.zip"
   name "MCPBoltBar"
   desc "Menu bar app for managing MCP servers across AI coding tools"
   homepage "https://github.com/vishmathpati/mcpbolt"
@@ -22,7 +22,7 @@ cask "mcpboltbar" do
   # so Gatekeeper doesn't block first launch.
   postflight do
     system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/MCPBoltBar.app"],
+                   args: ["-cr", "\#{appdir}/MCPBoltBar.app"],
                    sudo: false
   end
 
